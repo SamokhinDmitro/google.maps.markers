@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GoogleMapsMarker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="mk-spinner-wrap">
+    <div class="mk-spinner-ring"></div>
+</div>
+
+
+<!-- Maps -->
+<section class="maps">
+    <!-- Панель управления -->
+    <div class="search-control">
+        <button class="search-control__close">&times;</button>
+        <fieldset>
+            <legend>Фильтр отделений</legend>
+            <div class="form-group">
+                <label for="weight">Допустимый вес груза</label>
+                <select id="weight">
+                    <option value="1000">До 1000 кг</option>
+                    <option value="30">До 30 кг</option>
+                </select>
+            </div>
+        </fieldset>
+    </div>
+    <!-- End Панель управления -->
+
+    <div class="info">
+        <button class="info__close">&raquo;</button>
+    </div>
+
+    <a href="#" class="nav__btn"></a>
+    <div id="map"></div>
+</section>
+<!-- End Maps -->
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_iXeN3kLnDFVtsSZ_WDovLQquXGBncMM&callback=initMap" async></script>
+
+<script src="maps.js"></script>
+
+</body>
+</html>
