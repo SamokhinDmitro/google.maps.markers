@@ -44,7 +44,7 @@ function initMap() {
 
 
     //API ключ NovaPoshta
-    let apiKey = '912d257222b0cb87a01f72c6ccd05cf2';
+    let apiKey = '04934ab23a2965497d012e4857e7527e';
 
     //Массив маркеров
     var markers = [];
